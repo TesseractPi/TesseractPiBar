@@ -1,0 +1,2 @@
+# TesseractPiBar
+My waybar config
