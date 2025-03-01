@@ -120,6 +120,7 @@
       "(.*) - FreeCAD 1.0.0": "<span foreground='#cb333b'> </span> $1",
       "update": "󰮯  System Update",
       "udpate": "󰮯  System Update",
+      "updtae": "󰮯  System Update",
       "yay -S (.*)": "󰣇 󱧕  $1",
       "yay -Ss (.*)": "󰣇   $1",
       "yay -R (.*)": "󰣇 󱧔  $1",
