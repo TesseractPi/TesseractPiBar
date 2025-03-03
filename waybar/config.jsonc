@@ -347,14 +347,14 @@
     },
 
     "format": "{icon} {capacity}%",
-    "format-icons": ["󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂"],
-    "format-full": "󱃌 {capacity}%",
+    "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂"], 
+    "format-full": "󰁹 {capacity}%",
     "format-warning": "󰁻 {capacity}%",
-    "format-critical": "󱃍 {capacity}%",
-    "format-charging": "󱘖 {capacity}%",
+    "format-critical": "󰂎! {capacity}%",
+    "format-charging": "󰂄 {capacity}%",
 
-    "tooltip-format": "{capacity}% and discharging: {time} left",
-    "tooltip-format-charging": "{capacity}% and charging: {time} to 100%",
+    "tooltip-format": "{capacity}%: {time}",
+    "tooltip-format-charging": "{capacity}%: {time}",
     "interval": 1,
     "max-length": 20
   },
