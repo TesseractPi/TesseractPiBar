@@ -349,12 +349,12 @@
     "format": "{icon} {capacity}%",
     "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂"], 
     "format-full": "󰁹 {capacity}%",
-    "format-warning": "󰁻 {capacity}%",
+    "format-warning": "{icon} {capacity}%",
     "format-critical": "󰂎! {capacity}%",
     "format-charging": "󰂄 {capacity}%",
 
-    "tooltip-format": "{capacity}%: {time}",
-    "tooltip-format-charging": "{capacity}%: {time}",
+    "tooltip-format": " {capacity}%: {time}",
+    "tooltip-format-charging": " {capacity}%: {time}",
     "interval": 1,
     "max-length": 20
   },
