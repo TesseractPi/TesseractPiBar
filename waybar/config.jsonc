@@ -48,7 +48,7 @@
     "bluetooth",            // bluetooth
     "custom/update",        // update
 
-    "custom/left",
+    //"custom/left",
     "pulseaudio",           // output device
 
     "custom/left",
@@ -295,7 +295,7 @@
     "tooltip": true,
     "signal": 20, // what does this do?
     "min-length": 1,
-    "max-length": 1
+    "max-length": 2
   },
 
   "custom/media": {
