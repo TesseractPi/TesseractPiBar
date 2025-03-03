@@ -310,12 +310,12 @@
 
   "pulseaudio": {
     "format": "{icon} {volume}%",
-    "format-muted": "󰝟 {volume}%",
+    "format-muted": "  {volume}%",
 
     "format-icons": {
-      "default": ["󰕿", "󰖀", "󰕾"],
-      "headphone": "󰋋",
-      "headset": "󰋋"
+      "default": [" ", " ", " "],
+      "headphone": " ",
+      "headset": " "
     },
 
     "tooltip": true,
@@ -324,7 +324,7 @@
     "on-scroll-up": "~/.config/waybar/scripts/volume-control.sh -o i",
     "on-scroll-down": "~/.config/waybar/scripts/volume-control.sh -o d",
     "min-length": 6,
-    "max-length": 6
+    "max-length": 7
   },
 
   "custom/backlight": {
