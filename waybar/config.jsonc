@@ -121,6 +121,7 @@
       "update": "󰮯  System Update",
       "udpate": "󰮯  System Update",
       "updtae": "󰮯  System Update",
+      "updaet": "󰮯  System Update",
       "Signal": "<span foreground='#3b45fd'> </span> Signal",
       "yay -S (.*)": "󰣇 󱧕  $1",
       "yay -Ss (.*)": "󰣇   $1",
