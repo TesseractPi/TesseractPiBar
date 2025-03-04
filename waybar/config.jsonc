@@ -294,7 +294,7 @@
     "interval": 60,
     "tooltip": true,
     "signal": 20, // what does this do?
-    "min-length": 1,
+    "min-length": 2,
     "max-length": 2
   },
 
