@@ -15,17 +15,14 @@
   // === Positions ===
 
   "modules-left": [
-    "custom/ws",            // window icon
-    "custom/left",
-
     "hyprland/workspaces",  // workspaces
     "custom/right",
 
     "memory",               // memory
     "custom/right",
 
-    "custom/cpuinfo",       // temperature
-    "custom/right",
+    //"custom/cpuinfo",       // temperature
+    //"custom/right",
 
     "custom/cpu",           // cpu
     "custom/right",
@@ -38,7 +35,8 @@
   "modules-center": [
     "custom/paddc",
 
-    "hyprland/window"      // window title
+    "hyprland/window",      // window title
+    "custom/left"
   ],
 
   "modules-right": [
@@ -196,8 +194,8 @@
       "critical": 90
     },
 
-    "format": "󰘚 {used:0.1f}GB/{percentage}%",
-    "format-critical": "󰀦 {percentage}%",
+    "format": "󱦘 {used:0.1f}GB/{percentage}%",
+    "format-critical": "󱦘 {percentage}%",
     "tooltip": true,
     "tooltip-format": "Memory Used: {used:0.1f} GB / {total:0.1f} GB",
     "interval": 5,
@@ -206,7 +204,8 @@
   },
 
   "custom/cpu": {
-    "exec": "~/.config/waybar/scripts/cpu-usage.sh",
+    //"exec": "~/.config/waybar/scripts/cpu-usage.sh",
+    "exec": "~/.config/waybar/scripts/cpu.sh",
     "return-type": "json",
     "tooltip": true,
     "interval": 1
@@ -368,12 +367,12 @@
   // === Padding ===
 
   "custom/paddw": {
-    "format": "  ",
+    "format": " ",
     "tooltip": false
   },
 
   "custom/paddc": {
-    "format": " ",
+    "format": "  ",
     "tooltip": false
   },
 
@@ -387,7 +386,7 @@
   // == Right Arrows ==
 
   "custom/right": {
-    "format": " ",
+    "format": "  ",
     "tooltip": false
   }
 }
