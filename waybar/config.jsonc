@@ -95,8 +95,8 @@
 
   "hyprland/window": {
     "format": "{}",
-    "min-length": 5,
-    "max-length": 150,
+    "min-length": 10,
+    "max-length": 140,
 
     // === Window Titles ===
 
