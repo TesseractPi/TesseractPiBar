@@ -73,13 +73,13 @@ tempIcon=$(getTempIcon "$temp")
 # Set color based on temperature
 if [ "$temp" -ge 80 ]; then
   # If temperature is >= 80%, set color to #f38ba8
-  tempTxt="<span color='#f38ba8'>${tempIcon} ${temp}°C</span>"
+  tempTxt="<span color='#f38ba8'>${temp}°C</span>"
 else
   # Default color
-  tempTxt="${tempIcon} ${temp}°C"
+  tempTxt="${temp}°C"
 fi
 
 tooltip="${model}\nCPU Usage: ${state}\nTemperature: ${freedomTemp}°F\nClock Speed: ${CPUFrequency}"
 
 # Module and tooltip
-echo "{\"text\": \"${loadText} ${tempTxt}\", \"tooltip\": \"$tooltip\"}"
+echo "{\"text\": \"${loadText}/${tempTxt}\", \"tooltip\": \"$tooltip\"}"

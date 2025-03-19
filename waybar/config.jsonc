@@ -4,6 +4,9 @@
     Sejjy wrote most of this config, I just modified it
     Enjoy!
   */
+
+  // Optimized for 1920*1080 screens
+
   "layer": "top",
   "position": "top",
   // "height": 32, // Uncomment to set a fixed height
@@ -25,6 +28,9 @@
     "custom/right",
 
     "battery",              // battery
+    "custom/right",
+
+    "custom/keymap",        // keymap
 
     "custom/paddw"
   ],
@@ -276,7 +282,8 @@
     "return-type": "json",
     "format": "{}",
     "on-click": "hyprctl dispatch exec '~/.config/waybar/scripts/system-update.sh up'",
-    //"on-click": "hyprctl dispatch exec '~/.config/waybar/scripts/system-update.sh floating'", //???
+    // floating window, doesn't work
+    //"on-click": "hyprctl dispatch exec '~/.config/waybar/scripts/system-update.sh floating'", 
     "interval": 60,
     "tooltip": true,
     "signal": 20, // what does this do?
@@ -350,6 +357,12 @@
     "tooltip": false,
     "on-click": "~/.config/waybar/scripts/power-menu.sh"
   },
+
+  "custom/keymap": {
+    "exec": "~/.config/waybar/keymap.sh",
+    "interval": 1
+  },
+
 
   // === Padding ===
 
